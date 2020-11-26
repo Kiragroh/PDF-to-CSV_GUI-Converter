@@ -91,11 +91,11 @@ namespace PDFtoCSVconverter
                 var toRead = Enumerable.Empty<string>();
                 if (subDirCheckBox.IsChecked == false)
                 {
-                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf") & !Path.GetFileName(f).StartsWith("._"));
                 }
                 else
                 {
-                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf") & !Path.GetFileName(f).StartsWith("._"));
                 }
                 int np = toRead.Count();
                 ShowLogMsg("\nNew Conversion has started.");
@@ -305,11 +305,11 @@ namespace PDFtoCSVconverter
                 var toRead = Enumerable.Empty<string>();
                 if (subDirCheckBox.IsChecked == false)
                 {
-                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf") & !Path.GetFileName(f).StartsWith("._"));
                 }
                 else
                 {
-                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf") & !Path.GetFileName(f).StartsWith("._"));
                 }
                 int np = toRead.Count();
                 ShowLogMsg("\nNew Input-Peaking has started.");
@@ -366,11 +366,11 @@ namespace PDFtoCSVconverter
                 var toRead = Enumerable.Empty<string>();
                 if (subDirCheckBox.IsChecked == false)
                 {
-                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir).Where(f => Path.GetFileName(f).ToLower().Contains(".pdf") &!Path.GetFileName(f).StartsWith("._"));
                 }
                 else
                 {
-                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf"));
+                    toRead = Directory.GetFiles(dir, "*.pdf", SearchOption.AllDirectories).Where(f => Path.GetFileName(f).Contains(".pdf") & !Path.GetFileName(f).StartsWith("._"));
                 }
                 int np = toRead.Count();
                 ShowLogMsg("\nNew Output-Peaking has started.");
