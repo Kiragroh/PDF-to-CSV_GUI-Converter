@@ -1,0 +1,3 @@
+BouncyCastle.1.8.6.1
+iTextSharp.5.5.13.2
+Ookii.Dialogs.Wpf.3.0.1
