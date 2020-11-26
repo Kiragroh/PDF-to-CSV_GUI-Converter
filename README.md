@@ -1,4 +1,4 @@
-# PDFtoCSVconverter
+# PDF-to-CSV converter
 Convert many PDF files to CSV for data mining purposes. Tables remain readable.
 
 ![Test Image 6](https://github.com/Kiragroh/PDFtoCSVconverter/blob/main/PDFtoCSVconverter/debug/GUI-Screenshot.PNG)
