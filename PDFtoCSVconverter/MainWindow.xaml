@@ -17,7 +17,7 @@
 
                     <MenuItem Header="_Close" Click="Close_Click">
                         <MenuItem.Icon>
-                            <Image Source="icons/close.png" ></Image>
+                            <Image Source="icons/close.png" Height="16"></Image>
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
@@ -25,12 +25,12 @@
                 <MenuItem Header="_Help" >
                     <MenuItem Header="_Disclaimer" Click="Disclaimer_Click" >
                         <MenuItem.Icon>
-                            <Image Source="icons/alert1.png" ></Image>
+                            <Image Source="icons/alert1.png" Height="16"></Image>
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem Header="_About me" Click="AboutMe_Click" >
                         <MenuItem.Icon>
-                            <Image Source="icons/info.png" ></Image>
+                            <Image Source="icons/info.png" Height="16"></Image>
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
