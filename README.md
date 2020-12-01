@@ -11,4 +11,6 @@ Here is an example of my recent use-case for this kind of program:
 
 The conversion is not perfect, but therefore functional for nearly every PDF. You have to modify the code for even better results. PDF formats are too unpredictable for a one-fits-all solution.
 
-I used this nice repo in development (many thanks to Justabhi96): https://github.com/Justabhi96/Detect_And_Extract_Table_From_Pdf/tree/df6d3aace3012612d437779efd181daa6dd5ef06
+My program can be immediately started with the .exe in the 'debug'-folder.  
+
+I used this nice repo for development (many thanks to Justabhi96): https://github.com/Justabhi96/Detect_And_Extract_Table_From_Pdf/tree/df6d3aace3012612d437779efd181daa6dd5ef06
