@@ -547,7 +547,7 @@ namespace PDFtoCSVconverter
             }
 
             // Here we are removing the matching elements of remove list from the original list 
-            bottomPointList = bottomPointList.Where(item => !removeList.Contains(item)).ToList();
+            //bottomPointList = bottomPointList.Where(item => !removeList.Contains(item)).ToList();
 
             //Here we are removing the first matching element of same list from the original list
             foreach (var r in sameList)
